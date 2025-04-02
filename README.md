@@ -8,11 +8,11 @@ dpdk >= DPDK 20.02.1
 kernel >= 3.10.0
 
 CentOS
-#  yum install -y libpcap-devel gcc gcc-c++ make meson ninja  numactl-devel  numactl  net-tools pciutils
+#  yum install -y libpcap-devel gcc gcc-c++ make meson ninja  numactl-devel  numactl  net-tools pciutils  librdkafka-devel
 #  yum install -y kernel-devel-$(uname -r) kernel-headers-$(uname -r)
 
 Debian + Ubuntu
-# apt install -y libpcap-dev gcc g++ make meson ninja-build libnuma-dev numactl net-tools pciutils
+# apt install -y libpcap-dev gcc g++ make meson ninja-build libnuma-dev numactl net-tools pciutils librdkafka-dev
 # apt install -y linux-headers-$(uname -r)
 
 
@@ -28,7 +28,9 @@ Debian + Ubuntu
 
 
 #  wget  https://github.com/ntop/nDPI/archive/refs/tags/4.12.zip && unzip 4.12.zip 
-
 #  cd nDPI-4.12  && ./autogen.sh && ./configure  && make && make install
+
+
+#  cd dpdk_ndpi_kafka && make
 
 ```
