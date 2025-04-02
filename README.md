@@ -8,11 +8,11 @@ dpdk >= DPDK 20.02.1
 kernel >= 3.10.0
 
 CentOS
-#  yum install -y libpcap-devel gcc gcc-c++ make meson ninja  numactl-devel  numactl  net-tools pciutils  librdkafka-devel
+#  yum install -y libpcap-devel gcc gcc-c++ make meson ninja  numactl-devel  numactl  net-tools pciutils  librdkafka-devel  jansson-devel
 #  yum install -y kernel-devel-$(uname -r) kernel-headers-$(uname -r)
 
 Debian + Ubuntu
-# apt install -y libpcap-dev gcc g++ make meson ninja-build libnuma-dev numactl net-tools pciutils librdkafka-dev
+# apt install -y libpcap-dev gcc g++ make meson ninja-build libnuma-dev numactl net-tools pciutils librdkafka-dev libjansson-dev
 # apt install -y linux-headers-$(uname -r)
 
 

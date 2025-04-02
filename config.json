@@ -1,0 +1,8 @@
+{
+  "brokers": "your-kafka-broker:9092",
+  "topic": "your-topic",
+  "security_protocol": "SASL_SSL",
+  "sasl_mechanism": "PLAIN",
+  "sasl_username": "your-username",
+  "sasl_password": "your-password"
+}
